@@ -1,0 +1,162 @@
+/* General Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #d0e6ff, #b095f5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Navbar */
+
+nav {
+    background: #ffffffc9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-top: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #3c3c3c;
+    text-align: center;
+}
+
+
+/* Chat Container */
+
+.container {
+    max-width: 900px;
+    height: 60vh;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1.5px solid #ccc;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Chat Messages */
+
+.message {
+    display: flex;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.message span {
+    padding: 10px 14px;
+    border-radius: 18px;
+    font-size: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    word-wrap: break-word;
+}
+
+
+/* Alignments */
+
+.message.left {
+    justify-content: flex-start;
+}
+
+.message.left span {
+    background-color: #d5f5e3;
+    color: #333;
+}
+
+.message.right {
+    justify-content: flex-end;
+}
+
+.message.right span {
+    background: linear-gradient(145deg, #6c63ff, #877eff);
+    color: #fff;
+}
+
+.message.center {
+    justify-content: center;
+}
+
+.message.center span {
+    background: none;
+    color: #666;
+    font-style: italic;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+
+/* Typing Indicator */
+
+.typing {
+    font-style: italic;
+    color: #555;
+    padding: 4px 20px;
+    font-size: 13px;
+    align-self: flex-start;
+}
+
+
+/* Input Area */
+
+.send {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#send-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 900px;
+}
+
+#messageInp {
+    width: 80%;
+    height: 40px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 2px solid #555;
+    border-radius: 8px;
+    outline: none;
+}
+
+.btn {
+    height: 40px;
+    padding: 0 20px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #574b90;
+}

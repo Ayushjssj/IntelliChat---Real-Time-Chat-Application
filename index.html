@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IntelliChat - Realtime Chat</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="client.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo-container">
+            <img src="chat.png" alt="Chat Logo" class="logo" />
+        </div>
+        <h1>Welcome to IntelliChat - Real Time Chat Application</h1>
+
+    </nav>
+
+    <!-- Messages -->
+    <div class="container" id="message-container"></div>
+
+    <!-- Message Input -->
+    <div class="send">
+        <form id="send-container">
+            <input type="text" id="messageInp" name="messageInp" placeholder="Type a message..." required />
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+
+</html>
