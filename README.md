@@ -63,7 +63,7 @@ Now open the same URL in multiple tabs or devices to test real-time chat.<br>
 6) Better UI/UX<br>
 
 ## 🙋‍♂️ Author
-Ayush Pandey
+Ayush Pandey<br>
 GitHub: @Ayushjssj
 
 ## 📄 License
