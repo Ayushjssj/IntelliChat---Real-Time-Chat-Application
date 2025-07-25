@@ -18,11 +18,11 @@ A simple and elegant real-time chat application built using Node.js, Socket.io, 
 ## 📁 Project Structure
 <pre>
 IntelliChat-Chat-Application/
-├── style.css               # Styling for the chat UI.
-├── client.js               # Frontend Socket.io logic  
-├── index.js                # Backend server using Socket.io
-├── node_modules/           # Installed npm packages  
-├── chat.png                    # Chat icon used in the UI
+├── style.css                  # Styling for the chat UI.
+├── client.js                  # Frontend Socket.io logic  
+├── index.js                   # Backend server using Socket.io
+├── node_modules/              # Installed npm packages  
+├── chat.png                   # Chat icon used in the UI
 ├── index.html                 # Main HTML file
 ├── package.json               # Project metadata and dependencies
 ├── package-lock.json          # Lock file for npm packages
